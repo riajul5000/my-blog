@@ -1,8 +1,23 @@
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
 body{
     background-color:cadetblue;
+    font-family: "poppins", sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 h1{
+    background-image: url('cadetblue.jpg');
     text-align:center;
     font-size: 50px;
     font-style:italic
@@ -32,3 +47,4 @@ location{
     color:black;
     width: 500px;
 }
+
